@@ -1,3 +1,41 @@
-nav{
-    
+.nav{
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    top: 0px;
+    margin:0px 40px;
+}
+
+.div{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    margin: 15px;
+}
+
+button{
+        background-color: white; /* Define o fundo como branco */
+        border: 2px solid blue; /* Define a borda como azul com 2px de largura */
+        color:blue; /* Define a cor do texto como azul */
+        padding: 10px 20px; /* Espaçamento interno para o conteúdo do botão */
+        text-align: center; /* Centraliza o texto horizontalmente */
+        text-decoration: none; /* Remove a decoração do link (se o botão for usado como um link) */
+        display: inline-block; /* Permite definir largura e altura */
+        font-size: 16px; /* Tamanho do texto */
+        cursor: pointer; /* Altera o cursor para um ícone de mão quando o mouse passa sobre o botão */
+        border-radius: 5px; /* Adiciona bordas arredondadas */
+        font-weight: bold
 }
