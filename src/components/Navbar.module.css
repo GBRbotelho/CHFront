@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  height: 120px;
   top: 0px;
 }
 
@@ -16,7 +17,7 @@
 }
 
 .nav img {
-  height: 90px;
+  height: 70px;
 }
 
 .menu {
@@ -24,24 +25,24 @@
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #2732a0;
+  color: #001e47;
 }
 
 .menu li {
   margin: 0px 40px;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 button {
-  background-color: white; /* Define o fundo como branco */
-  border: 2px solid #2732a0; /* Define a borda como azul com 2px de largura */
-  color: #0f1a88; /* Define a cor do texto como azul */
-  padding: 10px 20px; /* Espaçamento interno para o conteúdo do botão */
-  text-align: center; /* Centraliza o texto horizontalmente */
-  text-decoration: none; /* Remove a decoração do link (se o botão for usado como um link) */
-  display: inline-block; /* Permite definir largura e altura */
-  font-size: 1.2rem; /* Tamanho do texto */
-  cursor: pointer; /* Altera o cursor para um ícone de mão quando o mouse passa sobre o botão */
-  border-radius: 5px; /* Adiciona bordas arredondadas */
+  background-color: white;
+  border: 5px solid #001e47;
+  color: #001e47;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 15px;
   font-weight: bold;
 }
