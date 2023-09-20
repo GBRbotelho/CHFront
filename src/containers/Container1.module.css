@@ -1,51 +1,50 @@
 .container {
-  padding: 20px;
-  margin-bottom: 20px;
   background-color: #001e47;
-  height: 600px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .container button {
+  height: auto;
   background-color: #ff3131;
   color: white;
-  border-radius: 20px;
+  border: 1px;
+  border-radius: 15px;
   border-color: #ff3131;
-  padding: 10px 30px;
+  padding: 8px 20px;
   font-weight: lighter;
-  font-size: 1.8rem;
-  margin: 10px 0px;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
-.container h2 {
-  font-weight: 900;
-  font-size: 130px;
-  margin: 0px;
-  letter-spacing: -10px;
-  margin-bottom: -80px;
+.p span {
+  font-weight: 700;
+  position: relative;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 7.8rem;
+  letter-spacing: -8px;
   color: white;
+  line-height: 1;
+  margin-bottom: 8px;
+  margin-top: 90px;
 }
 
-.container h3 {
-  font-weight: 900;
-  font-size: 140px;
-  margin: 0px;
-  letter-spacing: -12px;
-  color: #ff3131;
-  margin-bottom: -50px;
+.h2 span{
+  color:#ff3131;
+  font-weight: 700;
+  font-size: 7.8rem;
 }
 
 .container p {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
-.container span {
-  font-weight: 700;
-  position: relative;
-}
 
 .divImage {
   background-color: white;
