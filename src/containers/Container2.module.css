@@ -1,0 +1,92 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin: 0px 130px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.text h2{
+    color: #001e47;
+}
+
+.text h3{
+    color: #ff3131;
+}
+
+.text h2, .text h3{
+    font-size: 3.5rem;
+    margin: 0px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    line-height: 1;
+}
+
+.cardsContainer{
+    display: flex;
+    margin: 20px 0px;
+}
+
+
+.card1 div:not(:first-child) {
+    margin-top: 75px; 
+  }
+
+.card1 div{
+    width: 530px;
+    height: 400px;
+    background-color: black;
+}
+
+.card2 section{
+    width: 530px;
+    height: 400px;
+    background-color: black;
+}
+
+.card2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 h2{
+    font-size: 2.8rem;
+    margin-top: 30px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    line-height: 1;
+    text-align: center;
+    color: #001e47;
+}
+
+.text2 span{
+    color:#ff3131;
+}
+
+.container button {
+    background-color: #ff3131;
+    color: white;
+    border-radius: 20px;
+    border-color: #ff3131;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin: 15px 0px;
+    padding: 5px 10px;
+    width:fit-content;
+  }
+
+  

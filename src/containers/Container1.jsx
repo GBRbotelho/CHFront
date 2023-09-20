@@ -5,7 +5,7 @@ function Container1() {
     <div className={styles.container}>
       <div className={styles.content}>
         <h2>BUREAU</h2>
-        <h3>DE IMPRESSÂO</h3>
+        <h3>DE IMPRESSÃO</h3>
         <p>
           7 anos no mercado entregando com rapidez e qualidade, grandes
           <br />

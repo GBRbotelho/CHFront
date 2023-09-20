@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Container1 from "./containers/Container1";
+import Container2 from "./containers/Container2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <div className="Conteudo">
         <Container1 />
+        <Container2 />
       </div>
     </main>
   );
