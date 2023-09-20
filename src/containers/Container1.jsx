@@ -9,7 +9,7 @@ function Container1() {
         <p className={styles.p}>
           7 anos no mercado entregando com rapidez e qualidade, grandes
           <br />
-          produções.Com a estrutura para realizar{" "}
+          produções. Com a estrutura para realizar{" "}
           <span className={styles.caneta}>qualquer projeto</span>
         </p>
         <button>Entre em contato</button>

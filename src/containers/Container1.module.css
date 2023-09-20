@@ -20,12 +20,12 @@
 }
 
 .p span {
-  font-weight: 700;
+  font-weight:600;
   position: relative;
 }
 
 .h2 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 7.8rem;
   letter-spacing: -8px;
   color: white;
@@ -36,13 +36,14 @@
 
 .h2 span{
   color:#ff3131;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 7.8rem;
 }
 
 .container p {
   color: white;
   font-size: 1.3rem;
+  font-weight: normal;
 }
 
 

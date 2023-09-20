@@ -71,6 +71,7 @@
     line-height: 1;
     text-align: center;
     color: #001e47;
+    margin-bottom: 20px;
 }
 
 .text2 span{
@@ -84,7 +85,7 @@
     border-color: #ff3131;
     font-weight: lighter;
     font-size: 1.3rem;
-    margin: 15px 0px;
+    margin: 0px 0px;
     padding: 5px 10px;
     width:fit-content;
   }
