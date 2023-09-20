@@ -6,6 +6,13 @@
   width: 100vw;
   height: 120px;
   top: 0px;
+  transition: top 0.3s;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav.hidden {
+  top: -120px; 
 }
 
 .div {
