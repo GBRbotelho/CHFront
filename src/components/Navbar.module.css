@@ -9,6 +9,7 @@
   transition: top 0.3s;
   background-color: white;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000000;
 }
 
 .nav.hidden {
