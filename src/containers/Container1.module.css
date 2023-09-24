@@ -2,7 +2,14 @@
   background-color: #001e47;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.containerContent{
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  width: 1350px;
 }
 
 .container button {

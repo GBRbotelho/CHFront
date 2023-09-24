@@ -15,19 +15,19 @@ function Container4() {
             </div>
             <div className={styles.options}>
                 <div className={styles.styleOptions}>
-                    <h1>______________</h1>
+                    <h1>________________</h1>
                     <h2>NOME DO PROJETO - CLIENTE -<br/>CIDADE</h2>
                 </div>
                 <div className={styles.styleOptions}>
-                    <h1>______________</h1>
+                    <h1>________________</h1>
                     <h2>NOME DO PROJETO - CLIENTE -<br/>CIDADE</h2>
                 </div>
                 <div className={styles.styleOptions}>
-                    <h1>______________</h1>
+                    <h1>________________</h1>
                     <h2>NOME DO PROJETO - CLIENTE -<br/>CIDADE</h2>
                 </div>
                 <div className={styles.styleOptions}>
-                    <h1>______________</h1>
+                    <h1>________________</h1>
                     <h2>NOME DO PROJETO - CLIENTE -<br/>CIDADE</h2>
                 </div>
             </div>
