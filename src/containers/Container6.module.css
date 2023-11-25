@@ -1,66 +1,83 @@
 .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to bottom, #ffffff 40%, #001e47 40%, #001e47 100%); /* Define um gradiente linear para criar a divisão entre branco e azul */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    #ffffff 40%,
+    #001e47 40%,
+    #001e47 100%
+  ); /* Define um gradiente linear para criar a divisão entre branco e azul */
 }
 
-.content{
-    margin-top: 90px;
-    margin-bottom: 100px;
-    width: 1350px;
-    display: flex;
-    justify-content: space-evenly;
+.content {
+  margin-top: 90px;
+  margin-bottom: 100px;
+  width: 1350px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.content section{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    background-color: #001e47;
+.content section {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #001e47;
 }
 
-.content1, .content2{
-    display: flex;
+.content1,
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.content p {
+  color: #001e47;
+  font-weight: 500;
+  font-size: 17.3px;
+  letter-spacing: -5;
+  word-spacing: -2px;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin: 0px;
+  margin-top: 30px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: #001e47;
+  word-spacing: 5px;
+}
+
+.content span {
+  color: #ff3131;
+}
+
+.content button {
+  background-color: #ff3131;
+  color: white;
+  border-radius: 18px;
+  border-color: #ff3131;
+  font-weight: 200;
+  font-size: 1.3rem;
+  margin: 0px 0px;
+  padding: 10px 50px;
+  font-stretch: expanded;
+}
+
+@media (max-width: 480px) {
+  .container {
+    background: #001e47;
+  }
+
+  .content {
     flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px 40px;
-    text-align: center;
-}
-
-.content p{
-    color:#001e47;
-    font-weight: 500;
-    font-size: 17.3px;
-    letter-spacing: -5;
-    word-spacing: -2px;
-    
-}
-
-.content h2{
-    font-size: 1.8rem;
-    margin: 0px;
-    margin-top: 30px;
-    font-weight: 800;
-    letter-spacing: -2px;
-    line-height: 1;
-    color: #001e47;
-    word-spacing:5px;
-}
-
-.content span{
-    color: #ff3131;
-}
-
-.content button{
-    background-color: #ff3131;
-    color: white;
-    border-radius: 18px;
-    border-color: #ff3131;
-    font-weight: 200;
-    font-size: 1.3rem;
-    margin: 0px 0px;
-    padding: 10px 50px;
-    font-stretch:expanded;
+    gap: 75px;
+    margin: 30px 20px;
+  }
 }
