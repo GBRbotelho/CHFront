@@ -9,7 +9,6 @@ import Container5 from "./containers/Container5";
 import Container6 from "./containers/Container6";
 import Container7 from "./containers/Container7";
 
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -20,7 +19,7 @@ function App() {
         <Container1 />
         <Container2 />
         <Container3 />
-        <Container4 />
+        {/* <Container4 /> */}
         <Container5 />
         <Container6 />
         <Container7 />

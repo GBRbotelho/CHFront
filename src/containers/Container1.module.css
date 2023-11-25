@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.containerContent{
+.containerContent {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -27,7 +27,7 @@
 }
 
 .p span {
-  font-weight:600;
+  font-weight: 600;
   position: relative;
 }
 
@@ -41,8 +41,8 @@
   margin-top: 90px;
 }
 
-.h2 span{
-  color:#ff3131;
+.h2 span {
+  color: #ff3131;
   font-weight: 800;
   font-size: 7.8rem;
 }
@@ -52,7 +52,6 @@
   font-size: 1.3rem;
   font-weight: normal;
 }
-
 
 .divImage {
   background-color: white;
@@ -69,4 +68,24 @@
   height: 3px; /* Espessura máxima do traço */
   background: linear-gradient(2deg, transparent, red);
   border-radius: 60px;
+}
+
+@media (max-width: 480px) {
+  .containerContent {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .h2,
+  .h2 span {
+    font-size: 3.8rem;
+  }
+
+  .content {
+    margin-left: 20px;
+  }
+
+  .p br {
+    display: none;
+  }
 }
