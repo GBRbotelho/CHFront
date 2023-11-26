@@ -1,10 +1,17 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import Logo from "../images/Logo.png";
+import MenuHamburger from "../images/menuHamburger.svg";
+import Close from "../images/close.svg";
 
 function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -30,7 +37,9 @@ function Navbar() {
   };
 
   return (
-    <nav className={`${styles.nav} ${visible ? styles.visible : styles.hidden}`}>
+    <nav
+      className={`${styles.nav} ${visible ? styles.visible : styles.hidden}`}
+    >
       <div className={styles.divLogo}>
         <img src={Logo} alt="Descrição da imagem" />
       </div>
@@ -42,6 +51,19 @@ function Navbar() {
       </ul>
       <div className={styles.div}>
         <button>Fazer um orçamento</button>
+      </div>
+      <div onClick={toggleDropdown} className={styles.hamburger}>
+        <img src={isDropdownOpen ? Close : MenuHamburger}></img>
+      </div>
+      <div
+        className={`${styles.dropdown} ${isDropdownOpen ? styles.open : ""}`}
+      >
+        <ul>
+          <li>Home</li>
+          <li>Serviços</li>
+          <li>Clientes</li>
+          <li>Contatos</li>
+        </ul>
       </div>
     </nav>
   );
