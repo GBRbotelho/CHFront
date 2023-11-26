@@ -183,17 +183,71 @@
     margin-top: 80px;
     flex: auto;
     background-color: black;
-    width: 380px;
+    width: 90vw;
     height: 400px;
   }
 
   .coment {
-    width: 400px;
+    width: 90vw;
     height: 400px;
   }
 
   .content2 img {
     width: 40.95px;
     height: 35.1px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 699px) {
+  .content1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div2 {
+    margin-top: 50px;
+    flex: auto;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+  .content1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div2 {
+    margin-top: 50px;
+    flex: auto;
+    width: 80vw;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .content1 {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .div2 {
+    height: 450px;
+  }
+
+  .coment {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .content1 {
+    width: 95%;
+  }
+
+  .content {
+    width: 90vw;
   }
 }

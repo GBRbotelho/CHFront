@@ -71,6 +71,7 @@ function Navbar() {
           <li onClick={() => scrollToSection("servicos")}>Serviços</li>
           <li onClick={() => scrollToSection("clientes")}>Clientes</li>
           <li onClick={() => scrollToSection("contatos")}>Contatos</li>
+          <button>Fazer um orçamento</button>
         </ul>
       </div>
     </nav>
