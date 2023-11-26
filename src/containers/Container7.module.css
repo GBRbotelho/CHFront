@@ -88,6 +88,37 @@
   margin-top: -20px;
 }
 
+@media (max-width: 1050px) {
+  .text {
+    flex-direction: column;
+  }
+  .text,
+  .content img {
+    margin: 0;
+  }
+
+  .content {
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .textContent2,
+  .textContent1 {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .text2 {
+    margin-top: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 480px) {
   .text {
     flex-direction: column;
