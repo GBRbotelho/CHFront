@@ -2,7 +2,7 @@ import styles from "./Container1.module.css";
 
 function Container1() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="home">
       <div className={styles.containerContent}>
         <div className={styles.content}>
           <h2 className={styles.h2}>

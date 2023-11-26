@@ -36,6 +36,14 @@ function Navbar() {
     setPrevScrollPos(currentScrollPos);
   };
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setDropdownOpen(false); // Fechar o dropdown após clicar em um item
+    }
+  };
+
   return (
     <nav
       className={`${styles.nav} ${visible ? styles.visible : styles.hidden}`}
@@ -44,10 +52,10 @@ function Navbar() {
         <img src={Logo} alt="Descrição da imagem" />
       </div>
       <ul className={styles.menu}>
-        <li>Home</li>
-        <li>Serviços</li>
-        <li>Clientes</li>
-        <li>Contatos</li>
+        <li onClick={() => scrollToSection("home")}>Home</li>
+        <li onClick={() => scrollToSection("servicos")}>Serviços</li>
+        <li onClick={() => scrollToSection("clientes")}>Clientes</li>
+        <li onClick={() => scrollToSection("contatos")}>Contatos</li>
       </ul>
       <div className={styles.div}>
         <button>Fazer um orçamento</button>
@@ -59,10 +67,10 @@ function Navbar() {
         className={`${styles.dropdown} ${isDropdownOpen ? styles.open : ""}`}
       >
         <ul>
-          <li>Home</li>
-          <li>Serviços</li>
-          <li>Clientes</li>
-          <li>Contatos</li>
+          <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("servicos")}>Serviços</li>
+          <li onClick={() => scrollToSection("clientes")}>Clientes</li>
+          <li onClick={() => scrollToSection("contatos")}>Contatos</li>
         </ul>
       </div>
     </nav>

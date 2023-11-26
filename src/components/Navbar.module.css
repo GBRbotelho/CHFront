@@ -37,8 +37,23 @@
 }
 
 .menu li {
-  margin: 0px 40px;
+  margin: 0px 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
   font-size: 1.2rem;
+  transition: 0.2s;
+  scale: 1;
+}
+
+.menu li:hover {
+  background-color: #2d5388;
+  color: #fff;
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.menu li:active {
+  background-color: #001e47;
 }
 
 button {
@@ -53,6 +68,13 @@ button {
   cursor: pointer;
   border-radius: 15px;
   font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #001e47;
+  color: #fff;
+  scale: 1.1;
 }
 
 .dropdown {

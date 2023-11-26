@@ -3,7 +3,7 @@ import Marca from "../images/Logo.png";
 
 function Container3() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="clientes">
       <div className={styles.content}>
         <div className={styles.content1}>
           <div className={styles.div1}>
