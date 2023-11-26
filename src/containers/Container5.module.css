@@ -73,6 +73,28 @@
   font-size: 18px;
 }
 
+.map_responsive {
+  overflow: hidden;
+
+  padding-bottom: 20%;
+
+  position: relative;
+
+  height: 0;
+}
+
+.map_responsive iframe {
+  left: 0;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  position: absolute;
+}
+
 @media (max-width: 480px) {
   .content {
     margin-top: 50px;
@@ -85,5 +107,13 @@
   }
   .text {
     flex: auto;
+  }
+
+  .map_responsive {
+    padding-bottom: 80%;
+  }
+
+  .content {
+    margin-bottom: 50px;
   }
 }
