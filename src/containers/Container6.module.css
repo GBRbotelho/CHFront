@@ -80,4 +80,8 @@
     gap: 75px;
     margin: 30px 20px;
   }
+
+  .content br {
+    display: none;
+  }
 }

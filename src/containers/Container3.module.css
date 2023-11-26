@@ -84,11 +84,79 @@
   color: #ff3131;
 }
 
-.div2 section {
+.coment {
   z-index: 2;
   width: 400px;
   height: 400px;
-  background-color: white;
+  background-color: #f8f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  margin-top: 50px;
+  width: 85%;
+  height: 2px;
+  background-color: #003070;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #0f0f0f;
+}
+
+.comentDetails {
+  display: flex;
+  margin-top: 30px;
+}
+
+.comentName {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.comentName h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+.comentName ul {
+  margin: 0;
+  margin-top: -8px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.comentName li {
+  width: 20px;
+}
+
+.comentName li img {
+  width: 100%;
+  height: 100%;
+}
+
+.comentName span {
+  color: #003070;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.comentText {
+  width: 73%;
+}
+
+.comentText p {
+  font-size: 18px;
+  color: #003070;
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {
@@ -119,9 +187,9 @@
     height: 400px;
   }
 
-  .div2 section {
-    width: 300px;
-    height: 300px;
+  .coment {
+    width: 400px;
+    height: 400px;
   }
 
   .content2 img {

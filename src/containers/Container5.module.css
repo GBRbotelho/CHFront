@@ -76,11 +76,9 @@
 .map_responsive {
   overflow: hidden;
 
-  padding-bottom: 20%;
-
   position: relative;
 
-  height: 0;
+  height: 270px;
 }
 
 .map_responsive iframe {
@@ -110,7 +108,7 @@
   }
 
   .map_responsive {
-    padding-bottom: 80%;
+    height: 400px;
   }
 
   .content {
