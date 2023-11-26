@@ -23,6 +23,13 @@
   height: 130px;
   border-radius: 50%;
   background-color: #001e47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content section img {
+  width: 90px;
 }
 
 .content1,

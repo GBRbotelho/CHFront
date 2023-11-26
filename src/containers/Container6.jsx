@@ -1,12 +1,16 @@
 import React from "react";
 import styles from "./Container6.module.css";
+import Lupa from "../images/lupa.png";
+import Maos from "../images/maos.png";
 
 function Container6() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.content1}>
-          <section />
+          <section>
+            <img src={Lupa}></img>
+          </section>
           <h2>
             FAZER UM <span>ORÇAMENTO</span>
           </h2>
@@ -18,7 +22,9 @@ function Container6() {
           <button>Entrar em contato</button>
         </div>
         <div className={styles.content2}>
-          <section />
+          <section>
+            <img src={Maos}></img>
+          </section>
           <h2>
             FAÇA PARCERIA <span>CONOSCO</span>
           </h2>
