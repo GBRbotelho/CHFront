@@ -5,6 +5,7 @@
 }
 
 .content {
+  margin-top: 50px;
   display: flex;
   width: 1366px;
 }
@@ -78,7 +79,7 @@
 
   position: relative;
 
-  height: 270px;
+  height: 290px;
 }
 
 .map_responsive iframe {
@@ -108,10 +109,43 @@
   }
 
   .map_responsive {
+    height: 350px;
+  }
+
+  .content {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 999px) {
+  .content {
+    margin-top: 50px;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .image {
+    flex: auto;
+    width: 80vw;
+  }
+  .text {
+    flex: auto;
+  }
+
+  .map_responsive {
     height: 400px;
   }
 
   .content {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 350px) {
+  .content {
+    width: 90vw;
+  }
+  .image {
+    width: 90vw;
   }
 }
