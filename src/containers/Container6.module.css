@@ -92,3 +92,40 @@
     display: none;
   }
 }
+
+@media (min-width: 481px) and (max-width: 589px) {
+  .container {
+    background: #001e47;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 75px;
+    margin: 30px 20px;
+  }
+
+  .content br {
+    display: none;
+  }
+}
+
+@media (min-width: 590px) and (max-width: 1200px) {
+  .container {
+    background: #001e47;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 75px;
+    align-items: center;
+  }
+
+  .content1,
+  .content2 {
+    width: 490px;
+    padding: 50px 10px;
+  }
+  .content br {
+    display: none;
+  }
+}
