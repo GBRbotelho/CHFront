@@ -136,7 +136,7 @@
   }
 
   .card {
-    width: 371px;
+    width: 98vw;
     height: 350px;
   }
 
@@ -146,11 +146,11 @@
   }
 
   .line {
-    width: 320px;
+    width: 80%;
   }
 
   .cardText {
-    width: 320px;
+    width: 80%;
   }
 
   .cardText h2 {
@@ -160,5 +160,71 @@
   .text2 {
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+  .text h2,
+  .text h3 {
+    font-size: 3rem;
+  }
+
+  .cardText h2 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 1099px) {
+  .container {
+    margin-top: 100px;
+  }
+  .cardsContainer {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .card2 {
+    margin-left: 0;
+    margin-top: 75px;
+  }
+  .text2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 539px) {
+  .container {
+    margin-top: 100px;
+  }
+  .cardsContainer {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .card2 {
+    margin-left: 0;
+    margin-top: 75px;
+  }
+  .text2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 98vw;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .card2 {
+    margin-left: 3vw;
+  }
+
+  .cardsContainer {
+    margin-bottom: 100px;
   }
 }
