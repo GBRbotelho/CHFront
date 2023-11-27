@@ -15,6 +15,12 @@ main {
   overflow: hidden;
 }
 
+@media (max-width: 1050px) {
+  .Conteudo {
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 480px) {
   .Conteudo {
     margin-top: 80px;

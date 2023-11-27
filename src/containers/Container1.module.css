@@ -1,8 +1,10 @@
 .container {
-  background-color: #001e47;
+  background-image: url("../images/3.png");
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .containerContent {
@@ -68,6 +70,31 @@
   height: 3px; /* Espessura máxima do traço */
   background: linear-gradient(2deg, transparent, red);
   border-radius: 60px;
+}
+
+@media (max-width: 830px) {
+  .h2,
+  .h2 span {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 645px) {
+  .h2,
+  .h2 span {
+    font-size: 5rem;
+  }
+
+  .p br {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .h2,
+  .h2 span {
+    font-size: 4.8rem;
+  }
 }
 
 @media (max-width: 480px) {

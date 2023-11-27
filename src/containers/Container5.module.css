@@ -34,7 +34,7 @@
 .textContent img {
   width: 85px;
   height: 85px;
-  fill: #001e47;
+  fill: #003070;
 }
 
 .textContent2 img {
@@ -62,14 +62,14 @@
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1;
-  color: #001e47;
+  color: #003070;
 }
 
 .textContent p,
 .textContent2 p,
 .textContent3 p {
   margin: 0px;
-  color: #001e47;
+  color: #003070;
   font-weight: 500;
   font-size: 18px;
 }

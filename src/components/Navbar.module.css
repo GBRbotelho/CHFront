@@ -21,23 +21,24 @@
 }
 
 .divLogo {
-  margin: 20px 50px;
+  margin-left: 30px;
 }
 
 .nav img {
-  height: 60px;
+  height: 50px;
 }
 
 .menu {
+  gap: auto;
+  width: fit-content;
   list-style: none;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #001e47;
+  color: #404e9e;
 }
 
 .menu li {
-  margin: 0px 20px;
   padding: 10px 15px;
   border-radius: 20px;
   font-size: 1.2rem;
@@ -58,8 +59,8 @@
 
 button {
   background-color: white;
-  border: 5px solid #001e47;
-  color: #001e47;
+  border: 5px solid #404e9e;
+  color: #404e9e;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -72,7 +73,7 @@ button {
 }
 
 button:hover {
-  background-color: #001e47;
+  background-color: #404e9e;
   color: #fff;
   scale: 1.1;
 }
@@ -96,7 +97,7 @@ button:hover {
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #001e47;
+  color: #404e9e;
   gap: 20px;
   padding: 0px;
 }
@@ -114,12 +115,41 @@ button:hover {
 }
 
 .dropdown.open li:active {
-  background-color: #001e47;
+  background-color: #404e9e;
   color: #fff;
 }
 
 .hamburger {
   display: none;
+}
+
+@media (max-width: 1050px) {
+  .menu,
+  .div {
+    display: none;
+  }
+
+  .divLogo {
+    margin: 30px 10px;
+  }
+
+  .nav img {
+    height: 50px;
+  }
+
+  .nav {
+    height: 80px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -148,5 +178,17 @@ button:hover {
     width: 40px;
     height: 40px;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 389px) {
+  .nav img {
+    height: 35px;
+  }
+}
+
+@media (max-width: 289px) {
+  .nav img {
+    height: 30px;
   }
 }

@@ -22,9 +22,9 @@ function Container3() {
             <div className={styles.coment}>
               <div className={styles.line}></div>
               <div className={styles.comentDetails}>
-                <div className={styles.logo}></div>
+                {/* <div className={styles.logo}></div> */}
                 <div className={styles.comentName}>
-                  <h2>FAZENDINHA</h2>
+                  <h2>DEBORA</h2>
                   <ul>
                     <li>
                       <img src={Star} alt="" />

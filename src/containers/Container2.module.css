@@ -11,7 +11,7 @@
 }
 
 .text h2 {
-  color: #001e47;
+  color: #003070;
 }
 
 .text h3 {
@@ -42,6 +42,10 @@
   background-color: black;
 }
 
+.cardImg {
+  height: 300px;
+}
+
 .card2 {
   flex: 1;
   display: flex;
@@ -64,7 +68,7 @@
   letter-spacing: -4px;
   line-height: 1;
   text-align: center;
-  color: #001e47;
+  color: #003070;
   margin-bottom: 20px;
 }
 
@@ -93,7 +97,7 @@
 .cardContainer {
   width: 100%;
   height: 110px;
-  background-color: #001e47;
+  background-color: #003070;
   display: flex;
   flex-direction: column;
   align-items: center;

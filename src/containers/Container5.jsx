@@ -41,11 +41,7 @@ function Container5() {
             <img src={IconPhone} alt="" />
             <div>
               <h2>CONTATO</h2>
-              <p>
-                (XX)XXXXX-XXXX
-                <br />
-                (XX)XXXXX-XXXX
-              </p>
+              <p>(19) 3833-3802</p>
             </div>
           </div>
         </div>

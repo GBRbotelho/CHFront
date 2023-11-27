@@ -2,6 +2,9 @@ import styles from "./Container2.module.css";
 import Truck from "../images/truck.svg";
 import Banner from "../images/banner.svg";
 import Megaphone from "../images/megaphone.svg";
+import Adesivos from "../images/1.png";
+import ImgBanner from "../images/2.png";
+import ImgGrandesFormatos from "../images/4.jpg";
 
 function Container2() {
   return (
@@ -18,6 +21,7 @@ function Container2() {
         <div className={styles.cardsContainer}>
           <div className={styles.card1}>
             <div className={styles.card}>
+              <img src={ImgGrandesFormatos} className={styles.cardImg}></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
@@ -27,6 +31,7 @@ function Container2() {
               </div>
             </div>
             <div className={styles.card}>
+              <img src={ImgBanner} className={styles.cardImg}></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
@@ -38,6 +43,7 @@ function Container2() {
           </div>
           <div className={styles.card2}>
             <section className={styles.card}>
+              <img src={Adesivos} className={styles.cardImg}></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
@@ -58,7 +64,9 @@ function Container2() {
                 </span>
                 ?
               </h2>
-              <button>CHAMAR WHATSAPP</button>
+              <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+                <button>CHAMAR WHATSAPP</button>
+              </a>
             </div>
           </div>
         </div>

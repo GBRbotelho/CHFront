@@ -15,9 +15,11 @@ function Container1() {
             produções. Com a estrutura para realizar{" "}
             <span className={styles.caneta}>qualquer projeto</span>
           </p>
-          <button>Entre em contato</button>
+          <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+            <button>Entre em contato</button>
+          </a>
         </div>
-        <div className={styles.divImage}></div>
+        {/* <div className={styles.divImage}></div> */}
       </div>
     </div>
   );

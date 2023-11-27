@@ -5,8 +5,8 @@
   background: linear-gradient(
     to bottom,
     #ffffff 40%,
-    #001e47 40%,
-    #001e47 100%
+    #003070 40%,
+    #003070 100%
   ); /* Define um gradiente linear para criar a divisão entre branco e azul */
 }
 
@@ -22,7 +22,7 @@
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background-color: #001e47;
+  background-color: #003070;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@
 }
 
 .content p {
-  color: #001e47;
+  color: #003070;
   font-weight: 500;
   font-size: 17.3px;
   letter-spacing: -5;
@@ -57,7 +57,7 @@
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1;
-  color: #001e47;
+  color: #003070;
   word-spacing: 5px;
 }
 
@@ -79,7 +79,7 @@
 
 @media (max-width: 480px) {
   .container {
-    background: #001e47;
+    background: #003070;
   }
 
   .content {
@@ -95,7 +95,7 @@
 
 @media (min-width: 481px) and (max-width: 589px) {
   .container {
-    background: #001e47;
+    background: #003070;
   }
 
   .content {
@@ -111,7 +111,7 @@
 
 @media (min-width: 590px) and (max-width: 1200px) {
   .container {
-    background: #001e47;
+    background: #003070;
   }
 
   .content {

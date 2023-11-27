@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
-import Logo from "../images/Logo.png";
+import Logo from "../images/LOGONAV.png";
 import MenuHamburger from "../images/menuHamburger.svg";
 import Close from "../images/close.svg";
 
@@ -57,8 +57,11 @@ function Navbar() {
         <li onClick={() => scrollToSection("clientes")}>Clientes</li>
         <li onClick={() => scrollToSection("contatos")}>Contatos</li>
       </ul>
+
       <div className={styles.div}>
-        <button>Fazer um orçamento</button>
+        <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+          <button>Fazer um orçamento</button>
+        </a>
       </div>
       <div onClick={toggleDropdown} className={styles.hamburger}>
         <img src={isDropdownOpen ? Close : MenuHamburger}></img>
@@ -71,7 +74,9 @@ function Navbar() {
           <li onClick={() => scrollToSection("servicos")}>Serviços</li>
           <li onClick={() => scrollToSection("clientes")}>Clientes</li>
           <li onClick={() => scrollToSection("contatos")}>Contatos</li>
-          <button>Fazer um orçamento</button>
+          <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+            <button>Fazer um orçamento</button>
+          </a>
         </ul>
       </div>
     </nav>
