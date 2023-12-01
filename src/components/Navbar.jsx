@@ -59,7 +59,7 @@ function Navbar() {
       </ul>
 
       <div className={styles.div}>
-        <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+        <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
           <button>Fazer um orçamento</button>
         </a>
       </div>
@@ -74,7 +74,7 @@ function Navbar() {
           <li onClick={() => scrollToSection("servicos")}>Serviços</li>
           <li onClick={() => scrollToSection("clientes")}>Clientes</li>
           <li onClick={() => scrollToSection("contatos")}>Contatos</li>
-          <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+          <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
             <button>Fazer um orçamento</button>
           </a>
         </ul>

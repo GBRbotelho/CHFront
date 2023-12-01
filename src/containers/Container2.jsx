@@ -64,7 +64,7 @@ function Container2() {
                 </span>
                 ?
               </h2>
-              <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+              <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
                 <button>CHAMAR WHATSAPP</button>
               </a>
             </div>

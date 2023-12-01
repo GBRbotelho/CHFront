@@ -13,12 +13,12 @@ function Container7() {
           <div className={styles.text1}>
             <div className={styles.textContent1}>
               <h3>Horário de funcionamento</h3>
-              <p>Seg a Sex - 08:00 ás 18:00</p>
+              <p>Seg a Sex - 08:00 às 18:00</p>
             </div>
             <div className={styles.textContent2}>
               <h3>Endereço</h3>
               <p>
-                Rua Argemiro Piva, 330 - Vila Jose Paulino Nogueira, Paulínia -
+                Rua Argemiro Piva, 395 - Vila Jose Paulino Nogueira, Paulínia -
                 SP 13140-426
               </p>
             </div>
@@ -31,7 +31,7 @@ function Container7() {
             </div>
             <div className={styles.icon1}>
               <img src={IconWhats} alt="" />
-              <p>(19) 3833-3802</p>
+              <p>(19) 97402-6227</p>
             </div>
           </div>
         </div>

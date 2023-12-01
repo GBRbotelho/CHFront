@@ -24,7 +24,7 @@ function Container5() {
             <div>
               <h2>ENDEREÇO</h2>
               <p>
-                Rua Argemiro Piva,330 - Vila Jose Paulino Nogueira, Paulínia -
+                Rua Argemiro Piva,395 - Vila Jose Paulino Nogueira, Paulínia -
                 <br />
                 SP13140-426
               </p>
@@ -34,14 +34,14 @@ function Container5() {
             <img src={IconMail} alt="" />
             <div>
               <h2>EMAIL</h2>
-              <p>Chcomunição@gmail.com</p>
+              <p>chimpressao@gmail.com</p>
             </div>
           </div>
           <div className={styles.textContent3}>
             <img src={IconPhone} alt="" />
             <div>
               <h2>CONTATO</h2>
-              <p>(19) 3833-3802</p>
+              <p>(19) 97402-6227</p>
             </div>
           </div>
         </div>
