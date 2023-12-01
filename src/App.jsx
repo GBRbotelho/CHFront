@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Routes as Router, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Container1 from "./containers/Container1";
@@ -13,18 +14,26 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <main>
-      <Navbar />
-      <div className="Conteudo">
-        <Container1 />
-        <Container2 />
-        <Container3 />
-        {/* <Container4 /> */}
-        <Container5 />
-        <Container6 />
-        <Container7 />
-      </div>
-    </main>
+    <Router>
+      <Route
+        path="/"
+        element={
+          <main>
+            <Navbar />
+            <div className="Conteudo">
+              <Container1 />
+              <Container2 />
+              <Container3 />
+              {/* <Container4 /> */}
+              <Container5 />
+              <Container6 />
+              <Container7 />
+            </div>
+          </main>
+        }
+      />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Router>
   );
 }
 

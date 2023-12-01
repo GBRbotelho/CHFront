@@ -19,7 +19,7 @@ function Container6() {
             <br /> um orçamento ou uma consulta sobre seu próximo
             <br /> projeto
           </p>
-          <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+          <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
             <button>Entrar em contato</button>
           </a>
         </div>
@@ -35,7 +35,7 @@ function Container6() {
             tempo para atender seus clientes
             <br /> da melhor forma
           </p>
-          <a href="https://wa.me/19992263352?text=Gostaria%20de%20fazer%20um%20orçamento">
+          <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
             <button>Entrar em contato</button>
           </a>
         </div>
