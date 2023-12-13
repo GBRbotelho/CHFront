@@ -24,7 +24,7 @@ function Container3() {
               <div className={styles.comentDetails}>
                 {/* <div className={styles.logo}></div> */}
                 <div className={styles.comentName}>
-                  <h2>DEBORA</h2>
+                  <h2>Alexandre de Melo Paim</h2>
                   <ul>
                     <li>
                       <img src={Star} alt="" />
@@ -42,14 +42,14 @@ function Container3() {
                       <img src={Star} alt="" />
                     </li>
                   </ul>
-                  <span>11 de setembro 2023</span>
+                  <span>05 de dezembro de 2023</span>
                 </div>
               </div>
               <div className={styles.comentText}>
                 <p>
-                  "Melhor serviço que eu poderia ter contratado, sinto cada dia
-                  mais que tenho autonomia e segurança que uma empresa como a CH
-                  esta cuidando das impressões que eu preciso."
+                  "Mudar comentario para: A CH tem um atendimento de extrema
+                  excelência e com muita rapidez - sempre nos socorre com
+                  demandas emergenciais. Top... Top... Top..."
                 </p>
               </div>
             </div>
