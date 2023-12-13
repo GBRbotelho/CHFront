@@ -47,9 +47,9 @@ function Container3() {
               </div>
               <div className={styles.comentText}>
                 <p>
-                  "Mudar comentario para: A CH tem um atendimento de extrema
-                  excelência e com muita rapidez - sempre nos socorre com
-                  demandas emergenciais. Top... Top... Top..."
+                  "A CH tem um atendimento de extrema excelência e com muita
+                  rapidez - sempre nos socorre com demandas emergenciais. Top...
+                  Top... Top..."
                 </p>
               </div>
             </div>
