@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { Routes as Router, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -9,10 +9,9 @@ import Container4 from "./containers/Container4";
 import Container5 from "./containers/Container5";
 import Container6 from "./containers/Container6";
 import Container7 from "./containers/Container7";
+import ModalPopUp from "./containers/ModalPopUp";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <Route
@@ -28,6 +27,7 @@ function App() {
               <Container5 />
               <Container6 />
               <Container7 />
+              <ModalPopUp />
             </div>
           </main>
         }

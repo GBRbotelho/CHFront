@@ -8,6 +8,7 @@ function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const whatsappText = encodeURIComponent("Gostaria de fazer um orçamento");
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -59,7 +60,11 @@ function Navbar() {
       </ul>
 
       <div className={styles.div}>
-        <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
+        <a
+          href={`https://wa.me/19974026227?text=${whatsappText}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button>Fazer um orçamento</button>
         </a>
       </div>
@@ -74,7 +79,11 @@ function Navbar() {
           <li onClick={() => scrollToSection("servicos")}>Serviços</li>
           <li onClick={() => scrollToSection("clientes")}>Clientes</li>
           <li onClick={() => scrollToSection("contatos")}>Contatos</li>
-          <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
+          <a
+            href={`https://wa.me/19974026227?text=${whatsappText}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>Fazer um orçamento</button>
           </a>
         </ul>
