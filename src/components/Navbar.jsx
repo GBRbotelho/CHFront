@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
-import Logo from "../images/LOGONAV.png";
+import Logo from "../images/Logo_CH_2024.png";
 import MenuHamburger from "../images/menuHamburger.svg";
 import Close from "../images/close.svg";
 

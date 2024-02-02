@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Container7.module.css";
-import Logo from "../images/LOGONAV.png";
+import Logo from "../images/Logo_CH_2024.png";
 import IconInsta from "../images/iconinsta.svg";
 import IconWhats from "../images/iconwhats.svg";
 
