@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import styles from "./ModalPopUp.module.css";
-import popup from "../images/popup.png";
+import popup from "../images/popup.jpg";
 import popupMobile from "../images/popupMobile.png";
 
 export default function ModalPopUp() {
