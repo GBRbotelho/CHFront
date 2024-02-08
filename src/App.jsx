@@ -27,7 +27,7 @@ function App() {
               <Container5 />
               <Container6 />
               <Container7 />
-              {/* <ModalPopUp /> */}
+              <ModalPopUp />
             </div>
           </main>
         }
