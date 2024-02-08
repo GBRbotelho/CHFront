@@ -12,8 +12,8 @@ function Container1() {
           </h2>
           <p className={styles.p}>
             7 anos no mercado entregando com rapidez e qualidade.
-            <br /> Com estrutura para realizar impressões em{" "}
-            <span className={styles.caneta}> grandes formatos.</span>
+            <br /> Com estrutura para realizar impressões em grandes formatos.
+            {/* <span className={styles.caneta}> grandes formatos.</span> */}
           </p>
           <a href="https://wa.me/19974026227?text=Gostaria%20de%20fazer%20um%20orçamento">
             <button>Entre em contato</button>
