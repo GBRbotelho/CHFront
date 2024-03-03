@@ -22,7 +22,8 @@ function Navbar() {
   }, [prevScrollPos, visible]);
 
   const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
+    console.log(currentScrollPos);
 
     // Limita o desaparecimento da barra de navegação após rolar 120px
     const scrollThreshold = 55;
