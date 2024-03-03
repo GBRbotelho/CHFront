@@ -80,6 +80,9 @@
 }
 
 @media (max-width: 645px) {
+  .container {
+    background-image: url("../images/3mobile.png");
+  }
   .h2,
   .h2 span {
     font-size: 5rem;
