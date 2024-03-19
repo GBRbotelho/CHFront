@@ -1,5 +1,4 @@
 import styles from "./Container3.module.css";
-import Marca from "../images/Logo.png";
 import Star from "../images/starticon.svg";
 
 function Container3() {
