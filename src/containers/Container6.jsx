@@ -9,7 +9,7 @@ function Container6() {
       <div className={styles.content}>
         <div className={styles.content1}>
           <section>
-            <img src={Lupa}></img>
+            <img src={Lupa} alt="Imagem Lupa"></img>
           </section>
           <h2>
             FAZER UM <span>ORÇAMENTO</span>
@@ -25,7 +25,7 @@ function Container6() {
         </div>
         <div className={styles.content2}>
           <section>
-            <img src={Maos}></img>
+            <img src={Maos} alt="Imagem Mãos"></img>
           </section>
           <h2>
             FAÇA PARCERIA <span>CONOSCO</span>

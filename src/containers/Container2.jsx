@@ -21,21 +21,29 @@ function Container2() {
         <div className={styles.cardsContainer}>
           <div className={styles.card1}>
             <div className={styles.card}>
-              <img src={ImgGrandesFormatos} className={styles.cardImg}></img>
+              <img
+                src={ImgGrandesFormatos}
+                className={styles.cardImg}
+                alt="Imagem Grandes Formatos"
+              ></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
-                  <img src={Megaphone}></img>
+                  <img src={Megaphone} alt="Icone Mega-Fone"></img>
                   <h2>GRANDES FORMATOS</h2>
                 </div>
               </div>
             </div>
             <div className={styles.card}>
-              <img src={ImgBanner} className={styles.cardImg}></img>
+              <img
+                src={ImgBanner}
+                className={styles.cardImg}
+                alt="Imagem Adesivos, Envelopamento"
+              ></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
-                  <img src={Banner}></img>
+                  <img src={Banner} alt="Icone Banner"></img>
                   <h2>LONAS, BANNER´S</h2>
                 </div>
               </div>
@@ -43,11 +51,15 @@ function Container2() {
           </div>
           <div className={styles.card2}>
             <section className={styles.card}>
-              <img src={Adesivos} className={styles.cardImg}></img>
+              <img
+                src={Adesivos}
+                className={styles.cardImg}
+                alt="Imagem Lonas, Banner's"
+              ></img>
               <div className={styles.cardContainer}>
                 <div className={styles.line}></div>
                 <div className={styles.cardText}>
-                  <img src={Truck}></img>
+                  <img src={Truck} alt="Icone Caminhão"></img>
                   <h2>ADESIVOS, ENVELOPAMENTO</h2>
                 </div>
               </div>

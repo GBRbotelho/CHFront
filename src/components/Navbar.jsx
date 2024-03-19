@@ -70,7 +70,10 @@ function Navbar() {
         </a>
       </div>
       <div onClick={toggleDropdown} className={styles.hamburger}>
-        <img src={isDropdownOpen ? Close : MenuHamburger}></img>
+        <img
+          src={isDropdownOpen ? Close : MenuHamburger}
+          alt="Botão Fechar Menu"
+        ></img>
       </div>
       <div
         className={`${styles.dropdown} ${isDropdownOpen ? styles.open : ""}`}
