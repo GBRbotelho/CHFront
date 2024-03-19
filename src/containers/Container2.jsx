@@ -2,9 +2,9 @@ import styles from "./Container2.module.css";
 import Truck from "../images/truck.svg";
 import Banner from "../images/banner.svg";
 import Megaphone from "../images/megaphone.svg";
-import Adesivos from "../images/1.png";
-import ImgBanner from "../images/2.png";
-import ImgGrandesFormatos from "../images/4.jpg";
+import Adesivos from "../images/1.webp";
+import ImgBanner from "../images/2.webp";
+import ImgGrandesFormatos from "../images/4.webp";
 
 function Container2() {
   return (
